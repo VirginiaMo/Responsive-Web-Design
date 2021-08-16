@@ -1,0 +1,136 @@
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color:#7b241c;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+
+ li{
+     list-style: none;
+    
+ }
+ .imgPrincipal{
+     width: 100%;
+ }
+ header{
+    margin-top: 60px;
+ }
+
+
+
+ h1{
+    text-align: center;
+     color:#7b241c;
+     font-size: 10vw;
+     margin-top: 2rem;
+     margin-bottom: 2rem;
+    
+    
+ }
+main p {
+    text-align: justify;
+    margin: 3vw;
+    text-indent: 5%;
+    
+}
+.facebook{
+    width: 8vw;
+    height: 8vw;
+    margin-left: 35vw;
+    
+}
+.github{
+    width: 8vw;
+    height: 8vw;
+    margin-left: 3vw;
+}
+.twitter{
+    width: 8vw;
+    height: 8vw;
+    margin-left: 3vw;
+}
+footer h3{
+    font-size: 5vw;
+    text-align: center;
+    color:  #909497;
+
+}
+.containerFt{
+    background-color:#f0f3f4;
+    width:100% ;
+    padding-top: 0.1rem;
+    padding-bottom: 1.5rem;
+    
+}
+
+footer p{
+
+    font-size: 15px;
+
+}
+
+
+    @media screen and (min-width:600px){
+        .facebook{
+            width:50px ;
+            height:50px ;
+        }
+        .github{
+            width:50px ;
+            height:50px ;
+        }
+        .twitter{
+            width:50px ;
+            height:50px ;
+        }
+        footer h3{
+            font-size: 30px;
+        }
+        footer p{
+            font-size: 16px;
+            margin-top: -20px;
+        }
+    }
+
+    @media screen and (min-width:700px){
+
+        .facebook{
+            margin-left: 38vw;
+        }
+        footer p{
+            font-size: 18px;
+        }
+    }
+    @media screen and (min-width:800px){
+
+        .facebook{
+            margin-left: 40vw;
+        }
+        
+    }
+    @media screen and (min-width:900px){
+
+        .facebook{
+            margin-left: 40vw;
+        }
+    }
+   
